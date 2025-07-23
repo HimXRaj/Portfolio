@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-----------UNICONS-------------->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-----------CSS-------------->
+    <link rel="stylesheet" href="assets/css/style.css"> 
+    <!-----------Swiper CSS-------------->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- --------------- HEADER --------------- -->
+          <nav id="header">
+            <div class="nav-logo">
+                <img src="assets/images/logo.png" alt="My website Logo" class="nav-name">
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <a href="/resume.pdf" download>
+                    <button class="btn">
+                        Download CV <i class="uil uil-file-alt"></i>
+                    </button>
+                </a>
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+          </nav>
+
+        <!-----------Main-------------->
+        <main class="wrapper">
+        <!-- -------------- FEATURED BOX ---------------- -->
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span>Himanshu Rajput</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>I'm <span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>Combining frontend expertise with strong data analytics skills, I build intuitive,
+                            user-focused web applications that turn complex datasets into clear, actionable visuals.
+                        </p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <button class="btn blue-btn">Hire Me</button>
+                        <a href="/resume.pdf" download>
+                            <button class="btn">
+                                Download CV <i class="uil uil-file-alt"></i>
+                            </button>
+                        </a>
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon"><a href="https://www.instagram.com/him_x_raj?igsh=MWNiMjZ1bmc4YnQ2" target="_blank"><i class="uil uil-instagram"></i></a></div>
+                        <div class="icon"><a href="https://www.linkedin.com/in/himxraj" target="_blank"><i class="uil uil-linkedin-alt"></i></a></div>
+                        <div class="icon"><a href="https://www.facebook.com/profile.php?id=100027108048911&mibextid=ZbWKwL" target="_blank"><i class="uil uil-facebook"></a></i></div>
+                        <div class="icon"><a href="https://github.com/HimXRaj" target="_blank"><i class="uil uil-github-alt"></i></a></div>
+                    </div>
+                    </div>
+                    <div class="featured-image">
+                    <div class="image">
+                        <img src="assets/images/avatar.jpg" alt="avatar">
+                    </div>
+                    </div>
+                    <div class="scroll-icon-box">
+                    <a href="#about" class="scroll-btn">
+                        <i class="uil uil-mouse-alt"></i>
+                        <p>Scroll Down</p>
+                    </a>
+                </div>
+            </section>
+
+            <!-- -------------- About Box ---------------- -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                    <div class="about-info">
+                        <h3>My introduction</h3>
+                        <p>Hi, I'm a Web developer and Data enthusiast passionate about transforming ideas into engaging, 
+                            data-driven digital experiences. I specialize in creating visually appealing, responsive interfaces 
+                            that not only look great but function seamlessly across platforms. With a strong foundation in both 
+                            development and analytics, I craft scalable web solutions and translate complex data into clear, 
+                            interactive insights. Whether it's bringing designs to life, optimizing user experience, or uncovering 
+                            meaningful patterns through data, I’m driven by the challenge of delivering smart, impactful digital solutions. 
+                            Let’s collaborate to make your online presence both beautiful and intelligent.
+                        </p>
+                        <div class="about-btn">
+                            <a href="/resume.pdf" download>
+                                <button class="btn">
+                                    Download CV <i class="uil uil-file-alt"></i>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Web Dev</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>HTML</span>
+                            <span>Tailwind CSS</span>
+                            <span>Bootstrap</span>
+                            <span>JavaScript</span>
+                            <span>TypeScript</span>
+                            <span>React</span>
+                            <span>Next.js</span>
+                            <span>Node.js</span>
+                            <span>Express.js</span>
+                            <span>Figma(Basic)</span>
+                            <span>REST APIs</span>
+                            
+                        </div>
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Data Analytics</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>SQL</span>
+                            <span>Python(NumPy,Pandas)</span>
+                            <span>Power BI</span>
+                            <span>Tableau</span>
+                            <span>Excel</span>
+                            <span>Jupyter Notebook</span>
+                            <span>Matplotlib</span>
+                            <span>Seaborn</span>
+                            <span>Data Cleaning & Wrangling</span>
+                            <span>EDA</span>
+                            <span>Statistical Analysis</span>
+                            <span>Forecasting & Trend Analysis</span>
+                            <span>A/B Testing</span>
+                        </div>
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Database</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>My SQL</span>
+                            <span>PostgreSQL</span>
+                            <span>Neon</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>   
+            
+            <!-----------Projects Portfolio Box-------------->
+            <section class="project-box" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="slide-container swiper">
+                    <div class="slide-content">
+                        <div class="card-wrapper swiper-wrapper">
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="assets/images/Projects Images/splitr.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <h2 class="name">Splitr-AI Powered</h2>
+                                    <p class="description">The smartest way to split expenses with friends — track shared costs, split bills effortlessly, manage group spending, and settle up quickly. Never worry about who owes whom again.</p>
+                                    <a href="https://splitr-s.netlify.app/" target="_blank"><button class="button">Browse <i class="uil uil-arrow-up-right"></i></button></a>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="assets/images/Projects Images/illuminits-site.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <h2 class="name">Illuminits</h2>
+                                    <p class="description">Collaborating with my team to develop the Society website, using modern web technologies to build a responsive, user-friendly platform with strong digital presence.</p>
+                                    <a href="https://illumnits.vercel.app/" target="_blank"><button class="button">Browse <i class="uil uil-arrow-up-right"></i></button></a>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="assets/images/Projects Images/scansky.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <h2 class="name">ScanSky</h2>
+                                    <p class="description">A sleek and intuitive weather app displaying real-time conditions, detailed forecasts, and timely alerts with location-based accuracy. Stay updated and prepared wherever you are.</p>
+                                    <a href="https://scansky.netlify.app/" target="_blank"><button class="button">Browse <i class="uil uil-arrow-up-right"></i></button></a>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="assets/images/Projects Images/Usability image.avif" alt="" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <h2 class="name">Usability Hub</h2>
+                                    <p class="description">UsabilityHub is a simple HTML and CSS-based website for a remote research platform that removes guesswork from design decisions by validating them with real users through quick and feedbacks.</p>
+                                    <a href="https://usability-free-hub.netlify.app/" target="_blank"><button class="button">Browse <i class="uil uil-arrow-up-right"></i></button></a>
+                                </div>
+                            </div>
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="assets/images/Projects Images/Election.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <h2 class="name">Indian General Election</h2>
+                                    <p class="description">
+                                       Interactive Power BI dashboard analyzing Indian General Election 2024 results with insights by alliance, party, and candidate across national, state, and constituency levels.</p>
+                                    <a href="https://github.com/HimXRaj/Indian_General_Election-2024" target="_blank"><button class="button">Browse <i class="uil uil-arrow-up-right"></i></button></a>
+                                </div>
+                            </div>  
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="assets/images/Projects Images/uber.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <h2 class="name">Uber Trip</h2>
+                                    <p class="description">
+                                        "End-to-end Power BI dashboard analyzing Uber trip data to uncover booking trends, revenue patterns, peak hours, and location-based insights for strategic ride-hailing and business decisions.</p>
+                                    <a href="https://github.com/HimXRaj/Uber-Trip-Analysis" target="_blank"><button class="button">Browse <i class="uil uil-arrow-up-right"></i></button></a>
+                                </div>
+                            </div>  
+                            <div class="card swiper-slide">
+                                <div class="image-content">
+                                    <span class="overlay"></span>
+                                    <div class="card-image">
+                                        <img src="assets/images/Projects Images/Shopify.png" alt="" class="card-img">
+                                    </div>
+                                </div>
+                                <div class="card-content">
+                                    <h2 class="name">Shopify Sales</h2>
+                                    <p class="description">
+                                       Developed an interactive Power BI dashboard to analyze Shopify sales, revealing insights on transactions, customer behavior, retention, and revenue trends for data-driven decision-making.</p>
+                                    <a href="https://github.com/HimXRaj/Shopify-Sales-Analysis" target="_blank"><button class="button">Browse <i class="uil uil-arrow-up-right"></i></button></a>
+                                </div>
+                            </div>  
+                        </div>
+                    </div>
+                    <div class="swiper-button-next swiper-navBtn"></div>
+                    <div class="swiper-button-prev swiper-navBtn"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>  
+
+            <!-----------Contact Box-------------->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Get in touch</h1>
+                    <span>Do you have a project in your mind, contact me here</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                            <p><i class="uil uil-envelope"></i> Email: workfhimanshu@gmail.com</p>
+                            <p><i class="uil uil-phone"></i> Tel: +91 9289826040</p>
+                        </div>
+                   </div>
+                   <div class="col">
+                        <div class="form-control">
+                            <div class="form-inputs">
+                                <input type="text" class="input-field" placeholder="Name">
+                                <input type="text" class="input-field" placeholder="Email">
+                            </div>
+                            <div class="text-area">
+                                <textarea placeholder="Message"></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button class="btn">Send <i class="uil uil-message"></i></button>
+                            </div>
+                        </div>
+                   </div>
+                </div>
+             </section>
+
+        </main>
+
+        <!-----------Footer-------------->
+        <footer>
+            <div class="top-footer">
+                <p>Himanshu Rajput .</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon"><a href="https://www.instagram.com/him_x_raj?igsh=MWNiMjZ1bmc4YnQ2" target="_blank"><i class="uil uil-instagram"></i></a></div>
+                <div class="icon"><a href="https://www.linkedin.com/in/himxraj" target="_blank"><i class="uil uil-linkedin-alt"></i></a></div>
+                <div class="icon"><a href="https://www.facebook.com/profile.php?id=100027108048911&mibextid=ZbWKwL" target="_blank"><i class="uil uil-facebook"></a></i></div>
+                <div class="icon"><a href="https://github.com/HimXRaj" target="_blank"><i class="uil uil-github-alt"></i></a></div>
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Himanshu Rajput</a> - All rights reserved</p>
+            </div>
+        </footer>
+
+
+    </div>  
+
+    <!-----------Swiper JS Link-------------->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!-----------Typed JS Link-------------->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-----------Scroll Reveal JS Link------------->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-----------Main Js-------------->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
